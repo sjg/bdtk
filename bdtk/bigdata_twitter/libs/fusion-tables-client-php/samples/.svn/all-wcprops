@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/6/trunk/samples
+END
+oauth_ext_example.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/trunk/samples/oauth_ext_example.php
+END
+oauth_example.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/samples/oauth_example.php
+END
+testcsv.csv
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/3/trunk/samples/testcsv.csv
+END
+client_login_example.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4/trunk/samples/client_login_example.php
+END

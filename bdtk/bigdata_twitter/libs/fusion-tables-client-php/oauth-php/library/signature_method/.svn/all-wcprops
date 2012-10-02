@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/oauth-php/library/signature_method
+END
+OAuthSignatureMethod_PLAINTEXT.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/oauth-php/library/signature_method/OAuthSignatureMethod_PLAINTEXT.php
+END
+OAuthSignatureMethod_RSA_SHA1.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/oauth-php/library/signature_method/OAuthSignatureMethod_RSA_SHA1.php
+END
+OAuthSignatureMethod.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/oauth-php/library/signature_method/OAuthSignatureMethod.class.php
+END
+OAuthSignatureMethod_HMAC_SHA1.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/oauth-php/library/signature_method/OAuthSignatureMethod_HMAC_SHA1.php
+END
+OAuthSignatureMethod_MD5.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/oauth-php/library/signature_method/OAuthSignatureMethod_MD5.php
+END

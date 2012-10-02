@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www
+END
+logon.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www/logon.php
+END
+oauth.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www/oauth.php
+END
+services.xrds.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www/services.xrds.php
+END
+hello.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www/hello.php
+END
+register.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www/register.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/oauth-php/example/server/www/index.php
+END

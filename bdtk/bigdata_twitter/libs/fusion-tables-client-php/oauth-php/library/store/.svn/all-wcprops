@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/oauth-php/library/store
+END
+OAuthStoreAnyMeta.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreAnyMeta.php
+END
+OAuthStoreMySQLi.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreMySQLi.php
+END
+OAuthStoreSQL.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreSQL.php
+END
+OAuthStorePDO.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStorePDO.php
+END
+OAuthStoreSession.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreSession.php
+END
+OAuthStorePostgreSQL.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStorePostgreSQL.php
+END
+OAuthStoreMySQL.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreMySQL.php
+END
+OAuthStoreOracle.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreOracle.php
+END
+OAuthStoreAbstract.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStoreAbstract.class.php
+END
+OAuthStore2Leg.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/oauth-php/library/store/OAuthStore2Leg.php
+END
