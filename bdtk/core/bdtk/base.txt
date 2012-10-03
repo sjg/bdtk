@@ -1,0 +1,50 @@
+#!/bin/bash
+
+    echo "$(date -u): Starting Collectors ..."
+
+	screen -d -m php /var/bdtk/bigdata_twitter/twitter_json_search/liveGeoTweetsToDB.php "<<LAT>>" "<<LON>>" "<<RAD>>" "<<UNIT>>" "<<ID>>"
+	sleep 1
+
+	screen -d -m php /var/bdtk/bigdata_twitter/twitter_json_search/liveGeoTweetsToDB.php "<<LAT>>" "<<LON>>" "<<RAD>>" "<<UNIT>>" "<<ID>>"
+	sleep 1
+
+	screen -d -m php /var/bdtk/bigdata_twitter/twitter_json_search/liveGeoTweetsToDB.php "<<LAT>>" "<<LON>>" "<<RAD>>" "<<UNIT>>" "<<ID>>"
+	sleep 1
+
+	screen -d -m php /var/bdtk/bigdata_twitter/twitter_json_search/liveGeoTweetsToDB.php "<<LAT>>" "<<LON>>" "<<RAD>>" "<<UNIT>>" "<<ID>>"
+	sleep 1
+
+    #Start the client connection to the master server
+    echo "$(date -u): Starting Server Connection"
+    screen -d -m node /var/bdtk/core/node/bdtk-client.js "<<ID>>" "<<LAT>>" "<<LON>>" "<<RAD>>" "<<UNIT>>"
+
+	#Start The Cleaners in 5 minutes
+	echo "$(date -u): Starting Table Truncates in 1 minues ..."
+	sleep 60
+
+	counter=0;
+
+	while(true)
+	do
+		let "counter += 1"
+        echo ${counter};
+
+        echo "$(date -u): Starting Table Truncates (every 1 minutes from now) ..."
+		php /var/bdtk/bigdata_twitter/twitter_json_search/tableTruncate.php "<<ID>>"
+
+		echo "$(date -u): Waiting for 1 minute ..."
+		sleep 60
+
+                if [ $counter -eq 1440 ]; then
+                        echo "$(date -u): Dumping Table ..."
+						NOW=$(date +"%d-%m-%Y-%H-%M")
+						#MYSQL
+						# mysqldump -u bdtk -pbdtk bigdata "<<ID>>" > /mnt/nas-twitter/<<ID>>_$NOW.sql
+
+						#S3 DUMP
+						s3-put -k [AKIAJIJHGEUSR3P5MMXA] -s ./key.txt -T ../s3.txt "/textal/<<ID>>_$NOW.sql"
+
+                        let "counter = 0"
+                fi
+	done
+fi
