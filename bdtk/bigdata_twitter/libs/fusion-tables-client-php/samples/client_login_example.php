@@ -5,7 +5,7 @@ include('../sql.php');
 include('../file.php');
 
 //get token
-$token = ClientLogin::getAuthToken('frogosteve@gmail.com', 'inhaloTi');
+$token = ClientLogin::getAuthToken('************', '*****************');
 $ftclient = new FTClientLogin($token);
 
 //show all tables
